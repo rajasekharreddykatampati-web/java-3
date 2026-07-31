@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Exercise_4 {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int I =6;
+        switch(I) {
+            default: I+=2;
+            case 4: I=4;
+            case 5: I++;
+            break;
+        }
+        System.out.println(I);
+    }
+}
